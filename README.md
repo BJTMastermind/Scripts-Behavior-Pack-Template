@@ -10,7 +10,7 @@ node esbuild.js
 
 ## Pre-Installed
 
-This template come with these javascript packages pre-installed
+This template comes with these packages pre-installed:
 
 1. `@minecraft/server` - 1.14.0 - The main package used for minecraft bedrock scripting.
 2. `esbuild` - 0.24.0 - Bundles (Merges) all installed libraries and your projects code together into a single `main.js` file so they work together in Minecraft.
