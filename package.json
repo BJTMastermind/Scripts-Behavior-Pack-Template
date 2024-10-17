@@ -1,0 +1,15 @@
+{
+  "name": "behavior-pack-template",
+  "description": "A template for using Javascript/Typescript libraries in a behavior pack. (W.I.P)",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "Me!",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@minecraft/server": "^1.14.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}

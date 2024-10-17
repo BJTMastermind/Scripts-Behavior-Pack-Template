@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Behavior Pack Template",
+        "description": "A template for using Javascript/Typescript libraries in a behavior pack.",
+        "uuid": "089aa8d2-07e7-4dcf-95f4-e9ee6494bc0f",
+        "version": [0, 1, 0],
+        "min_engine_version": [1, 19, 60]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "b79a258b-828c-44c6-9d34-b52d88945778",
+            "version": [0, 1, 0]
+        },
+        {
+            "uuid": "a15d99f7-e3a9-40c9-85e4-7c08edd1bd64",
+            "version": [1, 0, 0],
+            "type": "script",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        }
+    ]
+}
